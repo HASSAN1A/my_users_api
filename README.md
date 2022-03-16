@@ -1,5 +1,5 @@
 # Users API
-
+[![Build Status](https://app.travis-ci.com/HASSAN1A/my_users_api.svg?branch=main)](https://app.travis-ci.com/github/HASSAN1A/my_users_api) [![Coverage Status](https://coveralls.io/repos/github/HASSAN1A/my_users_api/badge.svg?branch=main)](https://coveralls.io/github/HASSAN1A/my_users_api?branch=main)
 
 ## Installation
   - Install [Python](https://www.python.org/downloads/), [Pip](https://linuxize.com/post/how-to-install-pip-on-ubuntu-20.04/), [Redis on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-install-and-secure-redis-on-ubuntu-20-04) and [Postgres](https://www.postgresql.org/) on your machine
