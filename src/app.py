@@ -1,7 +1,8 @@
 #src/app.py
 
-from flask import Flask
-
+import requests
+from flask import Flask, jsonify, request
+from flask_caching import Cache
 from .config import app_config
 from .models import db, bcrypt
 
@@ -18,20 +19,22 @@ def create_app(env_name):
   # app initiliazation
   app = Flask(__name__)
 
-  app.config.from_object(app_config[env_name])
+  app.config.from_object(app_config['development'])
 
+  cache = Cache(app)
   # initializing bcrypt and db
   bcrypt.init_app(app)
   db.init_app(app)
 
   app.register_blueprint(user_blueprint, url_prefix='/api/v1/users')
 
-  @app.route('/', methods=['GET'])
-  def index():
-    """
-    Flask app
-    """
-    return 'Hello world my users'
+  # @app.route('/', methods=['GET'])
+  # @cache.cached(timeout=30, query_string=True)
+  # def index():
+  #   """
+  #   Flask app
+  #   """
+  #   return 'Hello world my users'
 
   return app
 
