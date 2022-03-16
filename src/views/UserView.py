@@ -1,6 +1,7 @@
 #/src/views/UserView
 
-from flask import request, json, Response, Blueprint, g
+from cgi import test
+from flask import request, json, Response, Blueprint, jsonify
 from ..models.UserModel import UserModel, UserSchema
 from ..auth.Authentication import Auth
 
@@ -120,3 +121,4 @@ def custom_response(res, status_code):
     response=json.dumps(res),
     status=status_code
   )
+
