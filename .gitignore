@@ -1,0 +1,10 @@
+.vscode
+.coverage
+.pytest_cache
+.coveralls.yml
+.env
+.coveragerc
+.pytest_cache
+__pycache__ 
+*.pyc
+venv
