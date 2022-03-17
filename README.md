@@ -12,11 +12,11 @@ This is a flask multi-user REST API endpoint backend application where a user ca
 
 ## API-Endpoints Consumption
 1. https://myusersapikata.herokuapp.com//api/v1/users: With a POST method, it creates  a user and return a token for the user to use in the future to access the backend service endpoints.
-2. https://myusersapikata.herokuapp.com//api/v1/users - With GET method it gets all registered users.
-3. https://myusersapikata.herokuapp.com//api/v1/users/<user_id>:  - With GET method it gets  a user by id.It will return 404 if user does not exist or a user object.
-4. https://myusersapikata.herokuapp.com//api/v1/users/me:  -With GET method/api/v1/users/me - get their information.It will return 401 if token is invalid or expired or a user object.
-5. https://myusersapikata.herokuapp.com//api/v1/users/me:  - With PUT method, it updates my account information.It will return 401 if token is invalid or expired or a user object.
-6. https://myusersapikata.herokuapp.com//api/v1/users/me:  -With DELETE method, it Deletes my account information.It will return 401 if token is invalid or expired or a user object.
+2. https://myusersapikata.herokuapp.com//api/v1/users: With GET method it gets all registered users.
+3. https://myusersapikata.herokuapp.com//api/v1/users/<user_id>: With GET method it gets  a user by id.It will return 404 if user does not exist or a user object.
+4. https://myusersapikata.herokuapp.com//api/v1/users/me: With GET method/api/v1/users/me - get their information.It will return 401 if token is invalid or expired or a user object.
+5. https://myusersapikata.herokuapp.com//api/v1/users/me: With PUT method, it updates my account information.It will return 401 if token is invalid or expired or a user object.
+6. https://myusersapikata.herokuapp.com//api/v1/users/me: With DELETE method, it Deletes my account information.It will return 401 if token is invalid or expired or a user object.
  
 ## Test Driven Development (TDD)
 
@@ -48,8 +48,8 @@ Here is a run through of how to set up the application:
   - Clone the repository `$ git clone https://github.com/HASSAN1A/my_users_api.git`
   - Go to the project root directory and  create a virtual environment. Run the following commands respectively: `$ cd /my_users_api`
   - Installing virtualenv `$ python3 -m pip install --user virtualenv` command
-  - Create the project virtual environment with `$ python3 -m venv env` command
-  - Activate the virtual environment `$ source env/bin/activate`
+  - Create the project virtual environment with `$ python3 -m venv venv` command
+  - Activate the virtual environment `$ source venv/bin/activate`
     * Note that you can exit the virtual environment by running the command **`deactivate`**
   - Install all required dependencies with `$ pip install -r requirements.txt`
   - Create the Database
