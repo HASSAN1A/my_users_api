@@ -8,22 +8,16 @@
 This is a flask multi-user REST API endpoint backend application where a user can sign up,log in get a a token and consume backend service using the provided endpoints.
 
 
-#### Live link : [link](https://hassanblog.herokuapp.co/)
+## Live link : [link](https://myusersapikata.herokuapp.com)
 
-
-
-
-
-
-## Consumer/User Stories
-
-- POST /api/v1/users - create a user
-- GET /api/v1/users - get all registered users
-- GET /api/v1/users/<user_id> - get a user by id
--  GET /api/v1/users/me - get their info
-- PUT /api/v1/users/me - update my account
-- DELETE /api/v1/users/me - Delete my account
-
+## API-Endpoints Consumption
+1. https://myusersapikata.herokuapp.com//api/v1/users: With a POST method, it creates  a user and return a token for the user to use in the future to access the backend service endpoints.
+2. https://myusersapikata.herokuapp.com//api/v1/users - With GET method it gets all registered users.
+3. https://myusersapikata.herokuapp.com//api/v1/users/<user_id>:  - With GET method it gets  a user by id.It will return 404 if user does not exist or a user object.
+4. https://myusersapikata.herokuapp.com//api/v1/users/me:  -With GET method/api/v1/users/me - get their information.It will return 401 if token is invalid or expired or a user object.
+5. https://myusersapikata.herokuapp.com//api/v1/users/me:  - With PUT method, it updates my account information.It will return 401 if token is invalid or expired or a user object.
+6. https://myusersapikata.herokuapp.com//api/v1/users/me:  -With DELETE method, it Deletes my account information.It will return 401 if token is invalid or expired or a user object.
+ 
 ## Test Driven Development (TDD)
 
 Test driven development is an iterative development process.
@@ -36,10 +30,6 @@ Here are the summary:
 
 - A landing page showing Sign Up and Log In   form
 - user is authenticated and able to consume the API after authentication.
-
-
-
-
 
 ## Requirements
 
@@ -75,9 +65,8 @@ Here is a run through of how to set up the application:
 
   - Start the app with `python3 run.py`
     * Open your preferred browser and view the app by opening the link **http://127.0.0.1:5000/**.
-
-
-# Contribution in Development
+    * You will see a landing page with a sign up and log in form.
+## Contribution in Development
 Want to contribute? Great!
 
 To fix a bug or enhance an existing module, follow these steps:
@@ -90,7 +79,7 @@ To fix a bug or enhance an existing module, follow these steps:
 - Push to the branch (`git push origin improve-feature`)
 - Create a Pull Request 
 
-### Bug / Feature Request
+## Bug / Feature Request
 
 
 
@@ -124,11 +113,11 @@ To fix a bug or enhance an existing module, follow these steps:
 13. [Postman](https://www.getpostman.com/) : For testing the API.
 14. [Figma](https://www.figma.com/file/iTndFXbWHuGkZak60bXr2h/Rental-Hub?node-id=0%3A1) - Blueprint for designing the web app.
 
-# To-do
+## To-do
 
 - To work on any issue that may arise,maintain the site and allow others to pair programme with me by raising their comments/issues that so that we work on them to achieve a common goal .
 
-## TEAM
+## Team
 
 [Hassan Juma ](https://github.com/HASSAN1A)
 
