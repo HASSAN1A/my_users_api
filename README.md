@@ -111,7 +111,7 @@ To fix a bug or enhance an existing module, follow these steps:
 11. [Git](https://git-scm.com/) : Version control.
 12. [GitHub](github.com) : For hosting the repository.
 13. [Postman](https://www.getpostman.com/) : For testing the API.
-14. [Figma](https://www.figma.com/file/iTndFXbWHuGkZak60bXr2h/Rental-Hub?node-id=0%3A1) - Blueprint for designing the web app.
+14. [Figma](https://www.figma.com/file/xvfDjQAeSMTPAhz1mkkgl9/myusersapikata?node-id=0%3A1) - Blueprint for designing the web app.
 
 ## To-do
 
