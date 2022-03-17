@@ -3,7 +3,7 @@
 .pytest_cache
 .coveralls.yml
 .env
-venv
 .coveragerc
 .pytest_cache
 __pycache__ 
+venv
