@@ -77,3 +77,61 @@ Here is a run through of how to set up the application:
     * Open your preferred browser and view the app by opening the link **http://127.0.0.1:5000/**.
 
 
+# Contribution in Development
+Want to contribute? Great!
+
+To fix a bug or enhance an existing module, follow these steps:
+
+- Fork the repo
+- Create a new branch (`git checkout -b improve-feature`)
+- Make the appropriate changes in the files
+- Add changes to reflect the changes made
+- Commit your changes (`git commit -am 'Improve feature'`)
+- Push to the branch (`git push origin improve-feature`)
+- Create a Pull Request 
+
+### Bug / Feature Request
+
+
+
+If you find a bug (the website couldn't handle the query and / or gave undesired results), kindly open an issue [here](https://github.com/HASSAN1A/my_users_api/issues/new) by including your search query and the expected result.
+If you'd like to request a new function, feel free to do so by opening an issue [here](https://github.com/HASSAN1A/my_users_api). Please include sample queries and their corresponding results.
+
+To fix a bug or enhance an existing module, follow these steps:
+
+- Fork the repo
+- Create a new branch (`git checkout -b improve-feature`)
+- Make the appropriate changes in the files
+- Add changes to reflect the changes made
+- Commit your changes (`git commit -am 'Improve feature'`)
+- Push to the branch (`git push origin improve-feature`)
+- Create a Pull Request
+
+## Built with
+
+1. [Python 3.8](https://www.python.org/doc/) : Programming language.
+2. [Flask](https://flask.palletsprojects.com/en/1.1.x/): Framework used.
+3. [HTML](https://www.w3schools.com/html/) : Layout.
+4. [CSS](https://www.w3schools.com/css/) : Styling.
+5. [Bootstrap](https://mdbootstrap.com/) : For responsive websites.
+6. [posgreSQL](https://www.postgresql.org/) : Database language.
+7. [psycopg2](https://pypi.org/project/psycopg2/) : Database driver.
+8. [JWT](https://jwt.io/) : Authentication.
+9. [Docker](https://www.docker.com/) : For running the application.
+10. [Heroku](https://www.heroku.com/) : For deploying the application.
+11. [Git](https://git-scm.com/) : Version control.
+12. [GitHub](github.com) : For hosting the repository.
+13. [Postman](https://www.getpostman.com/) : For testing the API.
+14. [Figma](https://www.figma.com/file/iTndFXbWHuGkZak60bXr2h/Rental-Hub?node-id=0%3A1) - Blueprint for designing the web app.
+
+# To-do
+
+- To work on any issue that may arise,maintain the site and allow others to pair programme with me by raising their comments/issues that so that we work on them to achieve a common goal .
+
+## TEAM
+
+[Hassan Juma ](https://github.com/HASSAN1A)
+
+## [License](https://github.com/HASSAN1A/my_users_api/blob/main/LICENSE.md)
+
+[MIT](https://github.com/HASSAN1A/my_users_api/main/LICENSE.md) © [Hassan Juma](https://github.com/HASSAN1A)
