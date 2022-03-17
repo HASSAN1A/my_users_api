@@ -4,3 +4,4 @@
 .coveralls.yml
 .env
 venv
+.coveragerc
