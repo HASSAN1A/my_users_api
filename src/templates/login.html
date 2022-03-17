@@ -1,0 +1,28 @@
+
+{% extends 'base.html'%}
+{% block content %}
+<div class="container">
+<div class="row">
+<div class="col-md-2"> </div>
+<div class="col-md-8">
+    <h2 class="text-info h2 mt-5">Log In</h2>
+    <form method="post" action="/login">
+        <div class="form-group">{{ form.email.label }}: {{ form.email(class="form-control") }}</div>
+        {% if form.email.errors %}
+            <ul class="errors text-danger">{% for error in form.email.errors %}<li>{{ error }}</li>{% endfor %}</ul>
+        {% endif %}
+    
+        <div class="form-group">{{ form.password.label }}: {{ form.password(class="form-control") }}</div>
+        {% if form.password.errors %}
+            <ul class="errors text-danger">{% for error in form.password.errors %}<li>{{ error }}</li>{% endfor %}</ul>
+        {% endif %}
+        <input type="submit" class="btn btn-outline-info px-4 rounded" value="Login">
+        <a class="text-info ml-5 pl-md-5" href="{{url_for('user_api.user_registration')}}">Don't have an account? Register</a>
+    </form>
+
+</div>
+<div class="col-md-2"></div>
+</div>
+</div>
+
+{% endblock%}
