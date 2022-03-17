@@ -5,3 +5,5 @@
 .env
 venv
 .coveragerc
+.pytest_cache
+__pycache__ 
