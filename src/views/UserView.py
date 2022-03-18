@@ -166,7 +166,7 @@ def create():
 @user_api.route('/', methods=['GET'])
 def index():
   """
-  Get all users
+  returns a landing page
   """
   return render_template('index.html')
 
