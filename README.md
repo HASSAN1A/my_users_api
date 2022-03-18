@@ -5,10 +5,9 @@
 ![alt text](app.png)
 ## Video Demonstration
 
-![Demonstration](vid.mp4)
-<video width="320" height="240" controls>
-  <source src="vid.mp4" type="video/mp4">
-</video>
+[![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://youtu.be/8L-cHQT0uQc)
+
+
 ## Description
 This is a flask multi-user REST API endpoint backend application where a user can sign up,log in get a a token and consume backend service using the provided endpoints.
 
