@@ -10,14 +10,31 @@ This is a flask multi-user REST API endpoint backend application where a user ca
 
 ## Live link : [link](https://myusersapikata.herokuapp.com)
 
-## API-Endpoints Consumption
-1. https://myusersapikata.herokuapp.com//api/v1/users: With a POST method, it creates  a user and return a token for the user to use in the future to access the backend service endpoints.
-2. https://myusersapikata.herokuapp.com//api/v1/users: With GET method it gets all registered users.
-3. https://myusersapikata.herokuapp.com//api/v1/users/<user_id>: With GET method it gets  a user by id.It will return 404 if user does not exist or a user object.
-4. https://myusersapikata.herokuapp.com//api/v1/users/me: With GET method/api/v1/users/me - get their information.It will return 401 if token is invalid or expired or a user object.
-5. https://myusersapikata.herokuapp.com//api/v1/users/me: With PUT method, it updates my account information.It will return 401 if token is invalid or expired or a user object.
-6. https://myusersapikata.herokuapp.com//api/v1/users/me: With DELETE method, it Deletes my account information.It will return 401 if token is invalid or expired or a user object.
- 
+## List of API Endpoints uusing this [link](https://myusersapikata.herokuapp.com/).
+### 1. List users 100 per page
+- `GET /users/range/` - Retrieves a list of users default 100 per page
+### 2. Subset or Filter users
+- `GET /users/range/<int:start>/<int:end>/ `- Retrieves a list of users from start to count of users.Start from id 5 = start end=10 which is count from 6 to 15 count 10
+### 3. List users
+- `GET /users/` - retrive all users but 100 per page count is 100
+### 4. Specifify number users per page
+- `GET /users/<int:n>` - Retrieves 12 users per page the default is 100 it  allows page number specification.This  returns a paginated number of results, the default is 100'''
+### 4. Get user by name
+- `GET /users/<name> `- Retrieves  users by name. This returns a filter of users by name
+### 5. Get user by id or email
+- `GET /user/<int:val>/` - Retrieves  users by id  or email. This returns a filter of a single user by their id or email.It will return 404 if user does not exist or a user object.
+### 6. Go to API landing page
+- `GET /` - Retrieves  landing page for the API.
+### 7. Register users
+- `GET /register/` - Retrieves  register page for the API. This  returns a register page  for the API.
+- `POST /register/` - Register a new user with the server and return the user's id  and token.
+
+### 8. Login users  and get token.
+- `GET /login/` - Retrieves  login page for the API.    This logs in a user with the server and returns the user's id and token. 
+
+- `POST /login/` - Logs in a user with the server and returns the user's id and token.  This logs in a user with the server and returns the user's id and token.
+
+It will return 401 if token is invalid or expired or a user object.
 ## Test Driven Development (TDD)
 
 Test driven development is an iterative development process.
