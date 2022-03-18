@@ -164,7 +164,6 @@ def create():
   return custom_response({'jwt_token': token}, 201)
 
 @user_api.route('/', methods=['GET'])
-@login_required
 def index():
   """
   Get all users
