@@ -3,7 +3,12 @@
 [![Build Status](https://app.travis-ci.com/HASSAN1A/my_users_api.svg?branch=main)](https://app.travis-ci.com/github/HASSAN1A/my_users_api) [![Coverage Status](https://coveralls.io/repos/github/HASSAN1A/my_users_api/badge.svg?branch=main)](https://coveralls.io/github/HASSAN1A/my_users_api?branch=main)
 
 ![alt text](app.png)
+## Video Demonstration
 
+![Demonstration](vid.mp4)
+<video width="320" height="240" controls>
+  <source src="vid.mp4" type="video/mp4">
+</video>
 ## Description
 This is a flask multi-user REST API endpoint backend application where a user can sign up,log in get a a token and consume backend service using the provided endpoints.
 
@@ -58,7 +63,8 @@ Here are the summary:
      3. [Redis](https://www.digitalocean.com/community/tutorials/how-to-install-and-secure-redis-on-ubuntu-20-04)
      4. [Docker](https://docs.docker.com/engine/install/ubuntu/)
      5. [Postgres](https://www.postgresql.org/) 
-      6. [Flask](https://flask.palletsprojects.com/en/1.1.x/install/)
+     6. [Flask](https://flask.palletsprojects.com/en/1.1.x/install/)
+     7. [Mockaroo](https://www.mockaroo.com/)  
 ## Installation and Set-up
 Here is a run through of how to set up the application:
   
