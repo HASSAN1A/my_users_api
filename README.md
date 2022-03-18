@@ -10,7 +10,7 @@ This is a flask multi-user REST API endpoint backend application where a user ca
 
 ## Live link : [link](https://myusersapikata.herokuapp.com)
 
-## List of API Endpoints uusing this [link](https://myusersapikata.herokuapp.com/).
+## List of API Endpoints using this [link](https://myusersapikata.herokuapp.com/).
 ### 1. List users 100 per page
 - `GET /users/range/` - Retrieves a list of users default 100 per page
 ### 2. Subset or Filter users
