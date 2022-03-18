@@ -1,8 +1,9 @@
 # src/models/UserModel.py
+from . import db, bcrypt
 from marshmallow import fields, Schema
 import datetime
 from flask_login import login_manager, UserMixin
-from . import db, bcrypt
+
 
 class UserModel(UserMixin, db.Model):
   """
@@ -11,8 +12,8 @@ class UserModel(UserMixin, db.Model):
 
   # table name
   __tablename__ = 'users'
-
-  id = db.Column(db.Integer, primary_key=True)
+  id = db.Column(db.Integer, primary_key=True, autoincrement=True)
+  # id = db.Column(db.Integer, primary_key=True)
   name = db.Column(db.String(128), nullable=False)
   email = db.Column(db.String(128), unique=True, nullable=False)
   password = db.Column(db.String(128), nullable=False)
