@@ -109,7 +109,7 @@ def filter_by_range(start, end):
 
 
 
-@user_api.route('/user/<int:val>/')
+@user_api.route('/user/<val>/')
 @login_required
 def get_user(val):
   '''This function returns a filter of a single user by their id or email'''
