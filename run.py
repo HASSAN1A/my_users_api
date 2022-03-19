@@ -3,11 +3,12 @@ import os
 from dotenv import load_dotenv, find_dotenv
 
 from src.app import create_app
+from src.config import Production
 
 load_dotenv(find_dotenv())
 
 env_name = os.getenv('FLASK_ENV')
-app = create_app(env_name)
+app = create_app(Production)
 
 if __name__ == '__main__':
   port = os.getenv('PORT')
