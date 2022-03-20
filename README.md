@@ -11,36 +11,7 @@
 ## Description
 This is a flask multi-user REST API endpoint backend application where a user can sign up,log in get a a token and consume backend service using the provided endpoints.
 
-
-
-
-
-
-## List of API Endpoints using this [ API link](https://myusersapikata.herokuapp.com/).
-### 1. List users 100 per page
-- `GET /users/range/` - Retrieves a list of users default 100 per page
-### 2. Subset or Filter users
-- `GET /users/range/<int:start>/<int:end>/ `- Retrieves a list of users from start to count of users.Start from id 5 = start end=10 which is count from 6 to 15 count 10
-### 3. List users
-- `GET /users/` - retrive all users but 100 per page count is 100
-### 4. Specifify number users per page
-- `GET /users/<int:n>` - Retrieves 12 users per page the default is 100 it  allows page number specification.This  returns a paginated number of results, the default is 100'''
-### 4. Get user by name
-- `GET /users/<name> `- Retrieves  users by name. This returns a filter of users by name
-### 5. Get user by id or email
-- `GET /user/<int:val>/` - Retrieves  users by id  or email. This returns a filter of a single user by their id or email.It will return 404 if user does not exist or a user object.
-### 6. Go to API landing page
-- `GET /` - Retrieves  landing page for the API.
-### 7. Register users
-- `GET /register/` - Retrieves  register page for the API. This  returns a register page  for the API.
-- `POST /register/` - Register a new user with the server and return the user's id  and token.
-
-### 8. Login users  and get token.
-- `GET /login/` - Retrieves  login page for the API.    This logs in a user with the server and returns the user's id and token. 
-
-- `POST /login/` - Logs in a user with the server and returns the user's id and token.  This logs in a user with the server and returns the user's id and token.
-
-It will return 401 if token is invalid or expired or a user object.
+# For detailed API Endpoints Overview click [ API Documentation](https://github.com/HASSAN1A/my_users_api/blob/main/APIDOCUMENTATION.md).
 ## Test Driven Development (TDD)
 
 Test driven development is an iterative development process.
