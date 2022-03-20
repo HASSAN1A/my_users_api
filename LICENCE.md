@@ -2,7 +2,8 @@ The Star And Thank Author License (SATA)
 
 Copyright (c) [2020] [Hassan Juma](https://https://github.com/HASSAN1A) <okothhassanjuma@gmail.com>
 
-Project Url:https://github.com/HASSAN1A/my_users_api
+Project Url:https://github.com/HASSAN1A/my_users_api.
+
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights

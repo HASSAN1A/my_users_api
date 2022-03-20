@@ -116,6 +116,6 @@ To fix a bug or enhance an existing module, follow these steps:
 
 [Hassan Juma ](https://github.com/HASSAN1A)
 
-## [License](https://github.com/HASSAN1A/my_users_api/blob/main/LICENSE.md)
+## [License](https://github.com/HASSAN1A/my_users_api/blob/main/LICENCE.md)
 
 [MIT](https://github.com/HASSAN1A/my_users_api/main/LICENSE.md) © [Hassan Juma](https://github.com/HASSAN1A)
