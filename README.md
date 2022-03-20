@@ -35,7 +35,7 @@ Here are the summary:
      4. [Docker](https://docs.docker.com/engine/install/ubuntu/)
      5. [Postgres](https://www.postgresql.org/) 
      6. [Flask](https://flask.palletsprojects.com/en/1.1.x/install/)
-     7. [Mockaroo](https://www.mockaroo.com/)  
+ 
 ## Installation and Set-up
 Here is a run through of how to set up the application:
   
@@ -56,8 +56,8 @@ Here is a run through of how to set up the application:
       $ export JWT_SECRET_KEY=your secret key
       ```Or you can create a .env file and export the variables in it.
   - Run the application `$ flask run`
-
-  - Start the app with `python3 run.py`
+             or ` $ python3 run.py`
+ 
     * Open your preferred browser and view the app by opening the link **http://127.0.0.1:5000/**.
     * You will see a landing page with a sign up and log in form.
 ## Contribution in Development
