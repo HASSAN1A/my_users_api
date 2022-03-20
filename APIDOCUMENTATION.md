@@ -11,6 +11,7 @@ This r contains the detailed documentation for [Users API](Resources)’s API.
   - [Subsetting](#3.2-Subsetting)
   - [Register](#3.3-Register a new user)
 - [Testing](#4-testing)
+- [Team](#5-team)
 
 ## 1. Overview
 
@@ -362,11 +363,11 @@ Content-Type: application/json; charset=utf-8
 }
 ```
   
-  Where a user object is:
+Where a User object is:
 
-| | Field      | Type   | Description                                     |
+| Field      | Type   | Description                                     |
 | -----------|--------|-------------------------------------------------|
-| user_id    | string | A unique identifier for the user.               |
+| user_id         | string | A unique identifier for the user.               |
 | name       | string | The user’s username on Users API.                  |
 | email      | string | The user’s email on Users API.                      |
 
@@ -418,9 +419,9 @@ Content-Type: application/json; charset=utf-8
 }
 ```
 
-  Where a user object is:
+Where a User object is:
 
-| | Field      | Type   | Description                                     |
+| Field      | Type   | Description                                     |
 | -----------|--------|-------------------------------------------------|
 | user_id         | string | A unique identifier for the user.               |
 | name       | string | The user’s username on Users API.                  |
@@ -468,9 +469,10 @@ Accept-Charset: utf-8
 
 With the following fields:
 
-| | Field      | Type   | Description                                     |
+
+| Field      | Type   | Description                                     |
 | -----------|--------|-------------------------------------------------|
-| user_id          | string | A unique identifier for the user.               |
+| user_id         | string | A unique identifier for the user.               |
 | name       | string | The user’s username on Users API.                  |
 | email      | string | The user’s email on Users API.                      |
 
@@ -513,3 +515,11 @@ Possible errors:
 I don't have a sandbox environment yet. To test, please feel free to create a testing account. 
 
 These endpoints will perform actions on production data on `myusersapikata.herokuapp.com`. **Please test with care.**
+
+## 5. Team
+
+[Hassan Juma ](https://github.com/HASSAN1A)
+
+## [License](https://github.com/HASSAN1A/my_users_api/blob/main/LICENSE.md)
+
+[MIT](https://github.com/HASSAN1A/my_users_api/main/LICENSE.md) © [Hassan Juma](https://github.com/HASSAN1A)
