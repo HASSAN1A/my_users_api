@@ -1,6 +1,6 @@
 # Users API documentation
 
-This r contains the detailed documentation for [Users API](Resources)’s API.
+This documentation contains the detailed documentation for Users API.
 
 #### Contents
 
@@ -9,7 +9,7 @@ This r contains the detailed documentation for [Users API](Resources)’s API.
  - [Resources](#3-Resources)
   - [Users](#31-Users)
   - [Subsetting](#3.2-Subsetting)
-  - [Register](#3.3-Register a new user)
+  - [Register](#3.3-Register)
 - [Testing](#4-testing)
 - [Team](#5-team)
 
