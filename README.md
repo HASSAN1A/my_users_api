@@ -11,7 +11,7 @@
 ## Description
 This is a flask multi-user REST API endpoint backend application where a user can sign up,log in get a a token and consume backend service using the provided endpoints.
 
-# For detailed API Endpoints Overview click [ API Documentation](https://github.com/HASSAN1A/my_users_api/blob/main/APIDOCUMENTATION.md).
+## For detailed API Endpoints Overview click [ API Documentation](https://github.com/HASSAN1A/my_users_api/blob/main/APIDOCUMENTATION.md).
 ## Test Driven Development (TDD)
 
 Test driven development is an iterative development process.
