@@ -1,5 +1,5 @@
 # start by pulling the python image
-FROM python:3.8-alpine
+FROM python:3.12.0a1-alpine
 # Run commands from /app directory inside container
 WORKDIR /app
 # Copy requirements from local to docker image
